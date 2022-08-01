@@ -1,0 +1,100 @@
+*{
+   padding: 0;
+   margin: 0; 
+}
+header{
+   max-width: 1440px;
+   background-color: #181818; padding: 24px 0; 
+   font-family: 'Poppins';
+   margin: auto; 
+}
+.header_container{
+   max-width: 1200px; 
+   margin: auto; 
+   display: flex; 
+   justify-content: space-between; 
+   align-items: center;
+}
+.logo{
+   margin-left: 32px; 
+   display: inline-block;
+}
+header ul{
+   display: flex;
+   align-items: center; 
+   list-style: none;
+}
+header ul li{
+   margin-left: 32px;
+   transition: 0.3s;
+}
+header ul li:hover{
+   transform: scale(1.2)
+}
+header ul li:hover a{
+   color: yellow;
+}
+header nav li a{
+   font-size: 15px;
+   line-height: 20px;
+   color: #FFFFFF;
+   display: inline-block;
+   text-decoration: none;
+}
+header ul li:first-of-type{
+   margin-right: 24px;
+}
+header ul li:first-of-type a{
+   font-size: 13px;
+}
+header ul li:last-of-type{
+   margin-right: 20px;
+   margin-left: 31px;
+}
+header nav li:last-of-type a{
+   padding: 9px 20px 13px; 
+   border-radius: 14px; 
+   font-size: 16px;
+   color: #000000;
+   background:#FFFFFF;; 
+   display: inline-block;
+   text-decoration: none;
+}
+.main_section{
+   background: linear-gradient(360deg, #000000 18.78%, rgba(0, 0, 0, 0) 98.53%), url("../images/Coast.jpg");
+   background-size: cover;
+   height: 100vh;
+   align-items: center;
+   padding-top: 446px;
+   padding-bottom: 61px;
+}
+.main_section div{
+   max-width: 600px;
+   box-sizing: border-box;
+   margin: auto; 
+   font-family: 'Poppins';
+   font-style: normal;
+   text-align: center;
+}
+.main_section div h2{
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #C0C0C0;
+   margin-bottom: 1px;
+}
+.main_section div h1{
+   font-size: 54px;
+   line-height: 59px;
+   font-weight: 400;
+   color: #FFFFFF;
+   margin-bottom: 18px;
+}
+.main_section div p{
+   font-size: 14px;
+   line-height: 20px;
+   font-weight: 400;
+   color: #C0C0C0;
+}
