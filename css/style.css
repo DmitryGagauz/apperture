@@ -85,12 +85,12 @@ header nav li:last-of-type a {
    font-family: 'Poppins';
    box-sizing: border-box;
 }
-.main_banner div {
+.main_banner_container {
    max-width: 600px;
    font-style: normal;
    text-align: center;
 }
-.main_banner div h2 {
+.main_banner_container h2 {
    font-size: 14px;
    line-height: 20px;
    font-weight: 400;
@@ -99,14 +99,14 @@ header nav li:last-of-type a {
    color: #C0C0C0;
    margin-bottom: 1px;
 }
-.main_banner div h1 {
+.main_banner_container h1 {
    font-size: 54px;
    line-height: 59px;
    font-weight: 400;
    color: #FFFFFF;
    margin-bottom: 18px;
 }
-.main_banner div p {
+.main_banner_container p {
    font-size: 14px;
    line-height: 20px;
    font-weight: 400;
@@ -169,12 +169,12 @@ header nav li:last-of-type a {
    justify-content: right;
    align-items: center;
 }
-.mount div{
-   max-width: 298px;
+.mount_container{
+   max-width: 300px;
    font-style: normal;
-   margin-right: 62px;
+   margin-right: 60px;
 }
-.mount h2{
+.mount_container h2{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -182,7 +182,7 @@ header nav li:last-of-type a {
    text-transform: uppercase;
    color: #FFFFFF;
 }
-.mount p{
+.mount_container p{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -199,12 +199,12 @@ header nav li:last-of-type a {
    justify-content: right;
    align-items: center;
 }
-.jungle div{
-   max-width: 273px;
+.jungle_container{
+   max-width: 300px;
    font-style: normal;
-   margin-right: 87px;
+   margin-right: 60px;
 }
-.jungle h2{
+.jungle_container h2{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -212,7 +212,7 @@ header nav li:last-of-type a {
    text-transform: uppercase;
    color: #FFFFFF;
 }
-.jungle p{
+.jungle_container p{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -226,18 +226,18 @@ header nav li:last-of-type a {
    font-style: normal;
    font-weight: 400;
 }
-.past_clients div{
+.past_clients_container{
    max-width: 1200px;
    margin: auto;
 }
-.past_clients h2{
+.past_clients_container h2{
    font-weight: 400;
    font-size: 40px;
    line-height: 42px;
    text-align: center;
    color: #FFFFFF;
 }
-.past_clients p{
+.past_clients_container p{
    font-size: 24px;
    line-height: 30px;
    text-align: center;
@@ -271,12 +271,12 @@ header nav li:last-of-type a {
    justify-content: right;
    align-items: center;
 }
-.stars div{
-   max-width: 254px;
+.stars_container{
+   max-width: 300px;
    font-style: normal;
-   margin-right: 106px;
+   margin-right: 60px;
 }
-.stars h2{
+.stars_container h2{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -284,7 +284,7 @@ header nav li:last-of-type a {
    text-transform: uppercase;
    color: #FFFFFF;
 }
-.stars p{
+.stars_container p{
    font-weight: 400;
    font-size: 14px;
    line-height: 20px;
@@ -299,50 +299,45 @@ header nav li:last-of-type a {
    margin: auto;
    font-family: 'Poppins';
    box-sizing: border-box;
-   justify-content: center;
    align-items: center;
 }
-.feedback div{
+.feedback_container{
    max-width: 600px;
    font-style: normal;
    font-weight: 400;
-   justify-content: center;
-   align-items: center;
-   display: inline-block;
    text-align: center;
 }
-.feedback h2{
+.feedback_container h2{
+   font-weight: 400;
    font-size: 40px;
    line-height: 42px;
-   text-align: center;
    color: #FFFFFF;
 }
-.feedback p{
+.feedback_container p{
    font-size: 24px;
    line-height: 30px;
-   text-align: center;
    color: #C0C0C0;
    margin-top: 15px;
    margin-bottom: 22px;
 }
-.feedback a{
-   padding: 10px 9px;
+.feedback_container a{
+   padding: 5px 10px 5px 4px;
    border-radius: 14px;
    font-size: 16px;
    line-height: 20px;
    letter-spacing: 0.4px;
    color: #000000;
    background: #FFFFFF;
-   justify-content: center;
    text-decoration: none;
    display: inline-flex;
+   align-items: center;
 }
 .feedback a:before{
    content: "";
    background-color: black;
-   height: 21px;
-   width: 21px;
+   height: 32px;
+   width: 32px;
    border-radius: 13px;
-   margin-right: 11px;
-   align-items: center;
+   margin-right: 6px;
+
 }
