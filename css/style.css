@@ -158,6 +158,91 @@ header nav li:last-of-type a {
    display: block;
    margin-right: 5px;
 }
+.what_we_do{
+   padding-top: 113px;
+   padding-bottom: 100px;
+   background-color: #000;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   
+}
+.what_we_do-container{
+   max-width: 1200px;
+   margin: auto;
+   text-align: center;
+}
+.what_we_do h2{
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 42px;
+   color: #FFFFFF;
+   padding-bottom: 15px;
+}
+.what_we_do p{
+   font-size: 23px;
+   line-height: 30px;
+   color: #C0C0C0;
+   padding-bottom: 26px;
+}
+.d-flex{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.what_we_do .item{
+   max-width: 576px;
+   position: relative;
+   margin-top: 16px;
+}
+.what_we_do .item img{
+   display: block;
+   width: 100%;
+}
+.what_we_do .item-description{
+   position: absolute;
+   padding: 30px;
+   width: 100%;
+   bottom: 0;
+   box-sizing: border-box;
+   text-align: left;
+}
+.what_we_do .item-description h4{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   padding-bottom: 13px;
+}
+.what_we_do .item-description p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #C0C0C0;
+   padding-bottom: 16px;
+}
+.what_we_do .item-description a{
+   padding: 5px 10px 5px 4px;
+   background: #FFFFFF;
+   border-radius: 14px;
+   font-size: 15px;
+   line-height: 20px;
+   letter-spacing: 0.4px;
+   color: #000000;
+   text-decoration: none;
+   display: inline-flex;
+   align-items: center;
+}
+.what_we_do .item-description a::before{
+   content: "";
+   margin-right: 6px;
+   width: 32px;
+   height: 32px;
+   border-radius: 13px;
+   background-color: #000;
+}
 .mount{
    background: url("../images/Mount.jpg");
    background-size: cover;
@@ -339,5 +424,122 @@ header nav li:last-of-type a {
    width: 32px;
    border-radius: 13px;
    margin-right: 6px;
-
+}
+footer{
+   background-color: #000;
+   padding: 100px 0;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+}
+.footer-main_container{
+   max-width: 1168px;
+   margin: auto;
+}
+.footer-first_container{
+   display: flex;
+   justify-content: space-between;
+}
+.footer-logo{
+   display: inline-block;
+}
+.footer-first_container_logo p{
+   font-size: 13px;
+   line-height: 20px;
+   color: #C0C0C0;
+}
+.footer-first_container_links{
+   display: flex;
+   justify-content: space-between;
+}
+.footer-first_container_links h4{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #C0C0C0;
+}
+.footer-first_container_links a{
+   font-size: 14px;
+   line-height: 20px;
+   color: #FFFFFF;
+   text-decoration: none;
+   display: inline-block;
+}
+.business_area{
+   margin-right: 55px;
+}
+.pages{
+   margin-right: 102px;
+   margin-bottom: 36px;
+}
+.footer-second_container{
+   border-top: solid 2px #FFFFFF;
+   border-bottom: solid 2px #FFFFFF;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.our-news h4{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   margin-top: 36px;
+   margin-bottom: 20px;
+}
+.our-news p{
+   font-size: 13px;
+   line-height: 20px;
+   color: #C0C0C0;
+   margin-bottom: 36px;
+}
+.form{
+   background-color: #F9FAFB;
+   border: 1px solid #E5E7EB;
+   border-radius: 12px;
+   height: 52px;
+   display: flex;
+   align-items: center;
+   padding: 7px;
+   box-sizing: border-box;
+}
+.input{
+   height: 38px;
+   border: none;
+   width: 376px;
+}
+.button{
+   height: 30px;
+   width: 63px;
+   background: #000000;
+   border-radius: 11px;
+   margin-left: 6px;
+}
+.footer-third_container{
+   display: flex;
+   justify-content: space-between;
+   padding-top: 56px;
+}
+.copyrights p{
+   font-size: 14px;
+   line-height: 20px;
+   color: #C0C0C0;
+}
+.footer-third_container ul{
+   display: flex;
+   align-items: center;
+}
+.footer-third_container a{
+   display: flex;
+   align-items: center;
+}
+.icons-list_insta{
+   margin-left: 20px;
+}
+.icons-list_facebook{
+   margin-left: 26px;
 }
