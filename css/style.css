@@ -242,6 +242,7 @@ header nav li:last-of-type a {
    border-radius: 13px;
    background-color: #000;
 }
+
 .mount{
    background: url("../images/Mount.jpg");
    background-size: cover;
@@ -574,7 +575,6 @@ footer{
    color: #FFFFFF;
    font-size: 30px;
 }
-
 .ui-accordion .ui-accordion-content{
    padding: 0;
    background-color: black;
@@ -618,7 +618,6 @@ body {
      right: 0;
      bottom: 0;
      background: rgba(0, 0, 0, 0.35); }
- 
  nav {
    --transition-time: 500ms;
    position: absolute;
